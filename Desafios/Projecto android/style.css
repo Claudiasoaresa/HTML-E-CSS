@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     background-color: #84e1ad;
+}
+header{
+    padding-top: 7px;
+    width: 100%;
+    background-image: linear-gradient(#36c174, #2b985b, #1a5c38);
+}
+header>h1{
+   
+   text-align: center;
+   color: white;
+   
+}
+header>P{
+    color: white;
+    text-align: center;
+}
+header h1{
+    
+   
+    font-family: monospace;
+    font-size: 25px;
+}
+nav{
+    background-color: #1a5c38;
+    padding: 10px;
+    box-shadow: 0 7px 7px rgb(0,0,0,0.192);
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+    transition-duration: .5s;
+}
+nav>a:hover{
+    background-color: #449c6c;
+    border-radius: 5px;
+}
+main{
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 7px black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 0 0 10px 10px ;
+     
+}
+main h1{
+    color: #1a5c38;
+}
+main img{
+    width: 100%;
+   
+}
+
+main div.vidio{
+    background-color: #1a5c38;
+    margin-bottom: 30px;
+    margin: 0 -10px 30px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+
+}
+div.vidio >iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+main section.outra{
+    background-color: #1a5c38;
+    padding: 2px;
+    border-radius: 20px 20px 0 0;
+    color: white;
+    font-weight: bolder;
+}
+.outra p{
+    margin-left: 10px;
+}
+
+main section{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+}
+
+footer{
+    background-color: #1a5c38;
+    text-align: center;
+    color: white;
+    padding: 6px;
+    margin-top: 20px;
+}
+@media(max-width:800px){
+    nav a{
+        font-size: 12px;
+        padding: 7px;
+    }
+}
